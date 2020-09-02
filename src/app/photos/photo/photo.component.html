@@ -1,0 +1,7 @@
+<div class="photo">
+  <app-card class="photo__card" [url]="imageUrl" [buttonActive]="false" [maxWidth]="600"></app-card>
+  <app-button class="photo__button"
+              (onClick)="removeFromFavourites(index)"
+              [label]="'Remove from favourites'">
+  </app-button>
+</div>

@@ -1,0 +1,24 @@
+@import "../../../variables.scss";
+
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+
+  &__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__link {
+    margin-left: 20px;
+  }
+}

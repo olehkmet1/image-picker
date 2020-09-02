@@ -1,0 +1,5 @@
+<div class="favourites">
+  <a [routerLink]="['/photos', i]"  *ngFor="let favourite of favourites; index as i;">
+    <app-card class="favourites__card" [url]="favourite" [buttonActive]="false" [maxWidth]="350"></app-card>
+  </a>
+</div>

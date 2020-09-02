@@ -1,0 +1,12 @@
+.card {
+  margin: 0 auto 50px;
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+  }
+  &__image {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,8 @@
+<mat-card class="card" [style.max-width.px]="maxWidth">
+    <img class="card__image" mat-card-image [src]="url" alt="Photo of a Shiba Inu">
+    <mat-card-actions *ngIf="buttonActive" class="card__actions">
+      <app-button *ngIf="buttonActive"  class="card__button"
+               (onClick)="addToFav(url)" [label]="'Like'">
+      </app-button>
+    </mat-card-actions>
+</mat-card>
