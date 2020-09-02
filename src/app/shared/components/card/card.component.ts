@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {DataService} from '../../../core/services/data.service';
 
 @Component({
@@ -17,7 +17,7 @@ export class CardComponent {
   @Input() buttonActive: boolean;
   @Input() maxWidth: number;
 
-  addToFav(url): void {
+  addToFavourites(url): void {
     this.dataService.addToFavourites(url);
   }
 }
